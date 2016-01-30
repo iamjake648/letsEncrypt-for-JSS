@@ -1,5 +1,5 @@
 # letsEncrypt-for-JSS
-**Implementation of Let's Encrypt SSL for JAMFSoftwareServer**
+**Implementation of Let's Encrypt SSL for JAMFSoftwareServer on RHEL/CentOS 7**
 
 There are 3 components to this solution:
 
@@ -49,3 +49,6 @@ backupKeystore=false
 ```bash
 30 03 01 */2 * /path/to/letsEncrypt-EL-JSS.sh
 ```
+
+# Special Thanks
+Ivan Tichy provided the foundation [on his blog](http://blog.ivantichy.cz/blogpost/view/74).
