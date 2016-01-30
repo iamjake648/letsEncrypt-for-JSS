@@ -16,7 +16,14 @@ cd /var/git
 git clone https://github.com/letsencrypt/letsencrypt
 cd letsencrypt
 ```
-# Install and Configure Script
+# Install Script
+**The directory listed below can be changed as desired**
+```bash
+mkdir -p /root/bin/
+cd /root/bin
+git clone git@github.com:sonofiron/letsEncrypt-for-JSS.git
+cd letsEncrypt-for-JSS
+```
 **Modify the variables as necessary**
 ```bash
 ########################## Variables ##########################
