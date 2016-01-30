@@ -3,6 +3,8 @@
 ########################## Variables ##########################
 # Service name for systemctl
 serviceName=jamf.tomcat7
+# Location of Let's Encrypt
+letsEncryptDir=/var/git/letsencrypt
 # Add URL after /live/
 certDir=/etc/letsencrypt/live/jss.example.com
 # Location of JAVA Keytool
@@ -34,7 +36,7 @@ iptables -D INPUT -p tcp -m tcp --dport 9999 -j ACCEPT
 }
 
 # Update Let's Encrypt
-cd /var/git/letsencrypt
+cd $letsEncryptDir
 git pull origin master
 
 # Open IPtables
