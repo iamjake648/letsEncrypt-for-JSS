@@ -24,6 +24,7 @@ cd /root/bin
 git clone git@github.com:sonofiron/letsEncrypt-for-JSS.git
 cd letsEncrypt-for-JSS
 ```
+# Configure Script
 **Modify the variables as necessary**
 ```bash
 ########################## Variables ##########################
