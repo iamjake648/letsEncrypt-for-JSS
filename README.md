@@ -1,5 +1,5 @@
-# letsEncrypt-for-JSS
-**Implementation of Let's Encrypt SSL for JAMFSoftwareServer on RHEL/CentOS 7**
+# Let's Encrypt for JSS
+**Implementation of Let's Encrypt SSL for the JAMFSoftwareServer on RHEL/CentOS 7**
 
 There are 3 components to this solution:
 
