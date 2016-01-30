@@ -1,5 +1,5 @@
 # letsEncrypt-for-JSS
-Implementation of Let's Encrypt SSL for JAMFSoftwareServer
+**Implementation of Let's Encrypt SSL for JAMFSoftwareServer**
 
 There are 3 components to this solution:
 
@@ -17,7 +17,7 @@ git clone https://github.com/letsencrypt/letsencrypt
 cd letsencrypt
 ```
 # Install and Configure Script
-Modify the variables as necessary
+**Modify the variables as necessary**
 ```bash
 ########################## Variables ##########################
 # Service name for systemctl
