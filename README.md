@@ -1,5 +1,9 @@
 # Let's Encrypt for JSS
-**Implementation of Let's Encrypt SSL for the JAMFSoftwareServer on RHEL/CentOS 7**
+**Implementation of Let's Encrypt SSL for the JAMFSoftwareServer**
+
+> Note:  
+> The following has been developed for RHEL/CentOS 7  
+> Ubuntu and OS X will be supported in future releases  
 
 There are 3 components to this solution:
 
